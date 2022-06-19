@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tethlas/template-cli/issues"
   },
-  "homepage": "https://github.com/Tethlas/template-cli#readme"
+  "homepage": "https://github.com/Tethlas/template-cli#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
