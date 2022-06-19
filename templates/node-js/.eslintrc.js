@@ -9,7 +9,12 @@ module.exports = {
     ecmaVersion: 13,
   },
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'linebreak-style': 0,
   },
 };
