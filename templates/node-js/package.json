@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Tethlas/template-cli#readme",
   "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
     "git-commit-msg-linter": "^4.1.3"
   }
 }
