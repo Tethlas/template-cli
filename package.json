@@ -7,7 +7,7 @@
     "start": "node ."
   },
   "bin": {
-    "template-cli": "index.js"
+    "template-cli": "./index.js"
   },
   "repository": {
     "type": "git",
