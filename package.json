@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node ."
   },
+  "bin": {
+    "template-cli": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tethlas/template-cli.git"
