@@ -13,6 +13,8 @@ const createDirectoryContents = (templatePath, newProjectPath) => {
     if (stats.isFile()) {
       const contents = fs.readFileSync(originalFilePath, 'utf8');
 
+      if (file === '.npmignore') file = '.gitignore';
+
       const writePath = `${CURRENT_DIR}/${newProjectPath}/${file}`;
       fs.writeFileSync(writePath, contents, 'utf8');
     } else if (stats.isDirectory()) {
