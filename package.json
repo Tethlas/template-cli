@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Tethlas/template-cli#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "8.2.3"
   }
 }
