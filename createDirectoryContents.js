@@ -28,4 +28,4 @@ const createDirectoryContents = (templatePath, newProjectPath) => {
   })
 }
 
-export default createDirectoryContents;
+module.exports = createDirectoryContents;
