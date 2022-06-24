@@ -1,0 +1,26 @@
+{
+  "name": "template-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "template-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tethlas/template-cli.git"
+  },
+  "author": "Tethlas",
+  "license": "SEE LICENSE IN ./LICENSE",
+  "bugs": {
+    "url": "https://github.com/Tethlas/template-cli/issues"
+  },
+  "homepage": "https://github.com/Tethlas/template-cli#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "inquirer": "8.2.3"
+  }
+}
